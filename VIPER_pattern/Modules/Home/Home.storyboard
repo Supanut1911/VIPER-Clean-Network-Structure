@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController restorationIdentifier="HomeViewController" storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="VIPER_patternS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VIPER template" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0m-P4-2ew">
+                                <rect key="frame" x="128.66666666666666" y="202" width="118" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="Gl2-xF-w33">
+                                <rect key="frame" x="34" y="366" width="306" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wx-50-XDF">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="2Y6-im-w36"/>
+                                            <constraint firstAttribute="height" constant="80" id="gjE-qR-k2s"/>
+                                        </constraints>
+                                        <state key="normal" title="Menu1"/>
+                                        <connections>
+                                            <action selector="menu1DidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jua-YF-Wc5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSS-3J-P6u">
+                                        <rect key="frame" x="113" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Menu2"/>
+                                        <connections>
+                                            <action selector="menu2DidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VC2-Oh-mwY"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="885-cr-r3a">
+                                        <rect key="frame" x="226" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Menu3"/>
+                                        <connections>
+                                            <action selector="menu3DidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ihC-e6-ogj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="885-cr-r3a" firstAttribute="width" secondItem="fSS-3J-P6u" secondAttribute="width" id="EWO-XP-Cow"/>
+                                    <constraint firstItem="fSS-3J-P6u" firstAttribute="height" secondItem="9wx-50-XDF" secondAttribute="height" id="GOS-Gb-LOn"/>
+                                    <constraint firstItem="fSS-3J-P6u" firstAttribute="width" secondItem="9wx-50-XDF" secondAttribute="width" id="MFh-6h-uNi"/>
+                                    <constraint firstItem="885-cr-r3a" firstAttribute="height" secondItem="fSS-3J-P6u" secondAttribute="height" id="iRQ-fZ-S6D"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gl2-xF-w33" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="18" id="FsX-sA-7JN"/>
+                            <constraint firstItem="Gl2-xF-w33" firstAttribute="top" secondItem="V0m-P4-2ew" secondAttribute="bottom" constant="143.66999999999999" id="Jxy-sV-FfT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Gl2-xF-w33" secondAttribute="trailing" constant="19" id="Mb2-aQ-Zxi"/>
+                            <constraint firstItem="V0m-P4-2ew" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="158" id="Mmk-az-7tH"/>
+                            <constraint firstItem="V0m-P4-2ew" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UAL-Tm-mnf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jji-uH-Yqx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="799.20000000000005" y="99.753694581280797"/>
+        </scene>
+    </scenes>
+</document>

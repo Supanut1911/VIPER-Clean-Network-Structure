@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.8.0)
+  - DeviceKit (2.0.0)
+  - GoogleMaps (3.9.0):
+    - GoogleMaps/Maps (= 3.9.0)
+  - GoogleMaps/Base (3.9.0)
+  - GoogleMaps/Maps (3.9.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.9.0):
+    - GoogleMaps/Base (= 3.9.0)
+  - SwiftKeychainWrapper (3.4.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.0)
+  - DeviceKit (= 2.0)
+  - GoogleMaps
+  - GooglePlaces
+  - SwiftKeychainWrapper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DeviceKit
+    - GoogleMaps
+    - GooglePlaces
+    - SwiftKeychainWrapper
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  DeviceKit: 72d36709552d4b3582abd76a53949148acad9811
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
+  SwiftKeychainWrapper: 6fc49fbf7d4a6b0772917acb0e53a1639f6078d6
+
+PODFILE CHECKSUM: 5b7a1ab395180849fb0f5ecb40f122ec611b58f6
+
+COCOAPODS: 1.9.3
