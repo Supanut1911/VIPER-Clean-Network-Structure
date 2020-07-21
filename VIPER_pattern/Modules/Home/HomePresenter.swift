@@ -9,6 +9,7 @@
 import Foundation
 
 class HomePresenter: HomePresenterInterface {
+    
     weak var view: HomeViewInterface?
     var interactor: HomeInteractorInterface?
     var router: HomeRouterInterface?
@@ -20,6 +21,11 @@ class HomePresenter: HomePresenterInterface {
     func showNew() {
         router?.presentNewsModule()
     }
+    
+    func showThird() {
+        router?.presentThridModule()
+    }
+    
 }
 
 extension HomePresenter: HomeInteractorDelegate {

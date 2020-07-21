@@ -10,6 +10,8 @@ import UIKit
 
 class NewsCell: UITableViewCell {
     
+    
+    
     @IBOutlet weak var titleLabel: UILabel!
     
     @IBOutlet weak var contentLabel: UITextView!
@@ -22,5 +24,4 @@ class NewsCell: UITableViewCell {
         self.titleLabel.text = titleText
         self.contentLabel.text = contentText
     }
-    
 }

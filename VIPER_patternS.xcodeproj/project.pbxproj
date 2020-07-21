@@ -13,6 +13,12 @@
 		172D464224C04BF100973F81 /* Menu1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D463C24C04BF000973F81 /* Menu1ViewController.swift */; };
 		172D464324C04BF100973F81 /* Menu1Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D463D24C04BF000973F81 /* Menu1Protocols.swift */; };
 		172D464424C04BF100973F81 /* Menu1Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D463E24C04BF000973F81 /* Menu1Interactor.swift */; };
+		17301CBB24C6F87800A051D7 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17301CB524C6F87800A051D7 /* Third.storyboard */; };
+		17301CBC24C6F87800A051D7 /* ThirdPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CB624C6F87800A051D7 /* ThirdPresenter.swift */; };
+		17301CBD24C6F87800A051D7 /* ThirdRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CB724C6F87800A051D7 /* ThirdRouter.swift */; };
+		17301CBE24C6F87900A051D7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CB824C6F87800A051D7 /* ThirdViewController.swift */; };
+		17301CBF24C6F87900A051D7 /* ThirdProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CB924C6F87800A051D7 /* ThirdProtocols.swift */; };
+		17301CC024C6F87900A051D7 /* ThirdInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CBA24C6F87800A051D7 /* ThirdInteractor.swift */; };
 		175354D124BF5AB10077EC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175354D024BF5AB10077EC18 /* AppDelegate.swift */; };
 		175354DA24BF5AB50077EC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175354D924BF5AB50077EC18 /* Assets.xcassets */; };
 		175354DD24BF5AB50077EC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175354DB24BF5AB50077EC18 /* LaunchScreen.storyboard */; };
@@ -60,6 +66,7 @@
 		17BA228124C44B3200A9B2D7 /* EmptyForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA228024C44B3200A9B2D7 /* EmptyForm.swift */; };
 		17BA228424C44CB600A9B2D7 /* ServiceLacator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA228324C44CB600A9B2D7 /* ServiceLacator.swift */; };
 		17BA228B24C4555A00A9B2D7 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA228A24C4555A00A9B2D7 /* NewsCell.swift */; };
+		17BA228D24C45E3500A9B2D7 /* SpecPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BA228C24C45E3500A9B2D7 /* SpecPage.swift */; };
 		582100C7404F61CF8D926FA6 /* Pods_VIPER_patternS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD4127032E32F1AC3682D4A /* Pods_VIPER_patternS.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +77,12 @@
 		172D463C24C04BF000973F81 /* Menu1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1ViewController.swift; sourceTree = "<group>"; };
 		172D463D24C04BF000973F81 /* Menu1Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1Protocols.swift; sourceTree = "<group>"; };
 		172D463E24C04BF000973F81 /* Menu1Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1Interactor.swift; sourceTree = "<group>"; };
+		17301CB524C6F87800A051D7 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		17301CB624C6F87800A051D7 /* ThirdPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPresenter.swift; sourceTree = "<group>"; };
+		17301CB724C6F87800A051D7 /* ThirdRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdRouter.swift; sourceTree = "<group>"; };
+		17301CB824C6F87800A051D7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		17301CB924C6F87800A051D7 /* ThirdProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdProtocols.swift; sourceTree = "<group>"; };
+		17301CBA24C6F87800A051D7 /* ThirdInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdInteractor.swift; sourceTree = "<group>"; };
 		175354CD24BF5AB10077EC18 /* VIPER_patternS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_patternS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175354D024BF5AB10077EC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		175354D924BF5AB50077EC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +132,7 @@
 		17BA228024C44B3200A9B2D7 /* EmptyForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyForm.swift; sourceTree = "<group>"; };
 		17BA228324C44CB600A9B2D7 /* ServiceLacator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLacator.swift; sourceTree = "<group>"; };
 		17BA228A24C4555A00A9B2D7 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		17BA228C24C45E3500A9B2D7 /* SpecPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecPage.swift; sourceTree = "<group>"; };
 		3FD4127032E32F1AC3682D4A /* Pods_VIPER_patternS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPER_patternS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8239463B77644E59C7AF60C7 /* Pods-VIPER_patternS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER_patternS.release.xcconfig"; path = "Target Support Files/Pods-VIPER_patternS/Pods-VIPER_patternS.release.xcconfig"; sourceTree = "<group>"; };
 		B7F6A01F59A5A0D62432AA53 /* Pods-VIPER_patternS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER_patternS.debug.xcconfig"; path = "Target Support Files/Pods-VIPER_patternS/Pods-VIPER_patternS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +169,19 @@
 				172D463E24C04BF000973F81 /* Menu1Interactor.swift */,
 			);
 			path = Menu1;
+			sourceTree = "<group>";
+		};
+		17301CB424C6F86400A051D7 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				17301CB524C6F87800A051D7 /* Third.storyboard */,
+				17301CB624C6F87800A051D7 /* ThirdPresenter.swift */,
+				17301CB724C6F87800A051D7 /* ThirdRouter.swift */,
+				17301CB824C6F87800A051D7 /* ThirdViewController.swift */,
+				17301CB924C6F87800A051D7 /* ThirdProtocols.swift */,
+				17301CBA24C6F87800A051D7 /* ThirdInteractor.swift */,
+			);
+			path = Third;
 			sourceTree = "<group>";
 		};
 		175354C424BF5AB10077EC18 = {
@@ -206,6 +233,7 @@
 				175354E524BF5AEC0077EC18 /* Home */,
 				172D463824C04BDF00973F81 /* Menu1 */,
 				17BA226A24C4449600A9B2D7 /* News */,
+				17301CB424C6F86400A051D7 /* Third */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -371,6 +399,7 @@
 			isa = PBXGroup;
 			children = (
 				17BA228A24C4555A00A9B2D7 /* NewsCell.swift */,
+				17BA228C24C45E3500A9B2D7 /* SpecPage.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -448,6 +477,7 @@
 				175354DD24BF5AB50077EC18 /* LaunchScreen.storyboard in Resources */,
 				17BA227124C444AE00A9B2D7 /* News.storyboard in Resources */,
 				175354DA24BF5AB50077EC18 /* Assets.xcassets in Resources */,
+				17301CBB24C6F87800A051D7 /* Third.storyboard in Resources */,
 				175354EC24BF5AFB0077EC18 /* Home.storyboard in Resources */,
 				172D463F24C04BF100973F81 /* Menu1.storyboard in Resources */,
 				175354FF24BF62460077EC18 /* Intro.storyboard in Resources */,
@@ -531,10 +561,12 @@
 				17BA225424C43DC200A9B2D7 /* UserAgent.swift in Sources */,
 				17BA227424C444AE00A9B2D7 /* NewsViewController.swift in Sources */,
 				1753550024BF62460077EC18 /* IntroPresenter.swift in Sources */,
+				17301CBF24C6F87900A051D7 /* ThirdProtocols.swift in Sources */,
 				17BA225224C43D0000A9B2D7 /* VPRHandler.swift in Sources */,
 				17BA225B24C440E600A9B2D7 /* User.swift in Sources */,
 				17BA227324C444AE00A9B2D7 /* NewsRouter.swift in Sources */,
 				172D464224C04BF100973F81 /* Menu1ViewController.swift in Sources */,
+				17301CBC24C6F87800A051D7 /* ThirdPresenter.swift in Sources */,
 				17BA227924C4464A00A9B2D7 /* UserService.swift in Sources */,
 				175354D124BF5AB10077EC18 /* AppDelegate.swift in Sources */,
 				17BA226924C4441900A9B2D7 /* Locale.swift in Sources */,
@@ -552,8 +584,12 @@
 				175354F424BF5C0F0077EC18 /* StoryboardLoadable.swift in Sources */,
 				1753550424BF62470077EC18 /* IntroInteractor.swift in Sources */,
 				175354ED24BF5AFB0077EC18 /* HomePresenter.swift in Sources */,
+				17301CC024C6F87900A051D7 /* ThirdInteractor.swift in Sources */,
 				175354F024BF5AFB0077EC18 /* HomeProtocols.swift in Sources */,
+				17301CBE24C6F87900A051D7 /* ThirdViewController.swift in Sources */,
+				17BA228D24C45E3500A9B2D7 /* SpecPage.swift in Sources */,
 				17BA225D24C441BE00A9B2D7 /* DateFormatter.swift in Sources */,
+				17301CBD24C6F87800A051D7 /* ThirdRouter.swift in Sources */,
 				172D464324C04BF100973F81 /* Menu1Protocols.swift in Sources */,
 				17BA228B24C4555A00A9B2D7 /* NewsCell.swift in Sources */,
 				172D464024C04BF100973F81 /* Menu1Presenter.swift in Sources */,

@@ -15,6 +15,7 @@ protocol HomePresenterInterface: class {
     
     func showMenu1()
     func showNew()
+    func showThird()
 }
 
 protocol HomeViewInterface: class {
@@ -28,6 +29,7 @@ protocol HomeRouterInterface: class {
     
     func presentMenu1()
     func presentNewsModule()
+    func presentThridModule()
 }
 
 protocol HomeInteractorInterface: class {

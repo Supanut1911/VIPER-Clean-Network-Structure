@@ -41,5 +41,10 @@ class HomeRouter: HomeRouterInterface {
         let newsViewController = NewsRouter.createModule()
         viewController?.navigationController?.pushViewController(newsViewController, animated: true)
     }
+    
+    func presentThridModule() {
+        let thirdVC = ThirdRouter.createModule()
+        viewController?.navigationController?.pushViewController(thirdVC, animated: true)
+    }
 }
 

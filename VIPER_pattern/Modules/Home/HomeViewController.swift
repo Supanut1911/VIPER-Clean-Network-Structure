@@ -32,6 +32,7 @@ class HomeViewController: UIViewController, StoryboardLoadable {
     
     
     @IBAction func menu3DidTap(_ sender: Any) {
+        presenter?.showThird()
     }
     
 }
