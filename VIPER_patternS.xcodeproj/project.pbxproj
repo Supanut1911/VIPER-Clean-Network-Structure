@@ -19,6 +19,12 @@
 		17301CBE24C6F87900A051D7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CB824C6F87800A051D7 /* ThirdViewController.swift */; };
 		17301CBF24C6F87900A051D7 /* ThirdProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CB924C6F87800A051D7 /* ThirdProtocols.swift */; };
 		17301CC024C6F87900A051D7 /* ThirdInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CBA24C6F87800A051D7 /* ThirdInteractor.swift */; };
+		17301CC824C7F53A00A051D7 /* Shape.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17301CC224C7F53A00A051D7 /* Shape.storyboard */; };
+		17301CC924C7F53A00A051D7 /* ShapePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CC324C7F53A00A051D7 /* ShapePresenter.swift */; };
+		17301CCA24C7F53A00A051D7 /* ShapeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CC424C7F53A00A051D7 /* ShapeRouter.swift */; };
+		17301CCB24C7F53A00A051D7 /* ShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CC524C7F53A00A051D7 /* ShapeViewController.swift */; };
+		17301CCC24C7F53A00A051D7 /* ShapeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CC624C7F53A00A051D7 /* ShapeProtocols.swift */; };
+		17301CCD24C7F53A00A051D7 /* ShapeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17301CC724C7F53A00A051D7 /* ShapeInteractor.swift */; };
 		175354D124BF5AB10077EC18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175354D024BF5AB10077EC18 /* AppDelegate.swift */; };
 		175354DA24BF5AB50077EC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175354D924BF5AB50077EC18 /* Assets.xcassets */; };
 		175354DD24BF5AB50077EC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175354DB24BF5AB50077EC18 /* LaunchScreen.storyboard */; };
@@ -83,6 +89,12 @@
 		17301CB824C6F87800A051D7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		17301CB924C6F87800A051D7 /* ThirdProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdProtocols.swift; sourceTree = "<group>"; };
 		17301CBA24C6F87800A051D7 /* ThirdInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdInteractor.swift; sourceTree = "<group>"; };
+		17301CC224C7F53A00A051D7 /* Shape.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shape.storyboard; sourceTree = "<group>"; };
+		17301CC324C7F53A00A051D7 /* ShapePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapePresenter.swift; sourceTree = "<group>"; };
+		17301CC424C7F53A00A051D7 /* ShapeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeRouter.swift; sourceTree = "<group>"; };
+		17301CC524C7F53A00A051D7 /* ShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewController.swift; sourceTree = "<group>"; };
+		17301CC624C7F53A00A051D7 /* ShapeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeProtocols.swift; sourceTree = "<group>"; };
+		17301CC724C7F53A00A051D7 /* ShapeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeInteractor.swift; sourceTree = "<group>"; };
 		175354CD24BF5AB10077EC18 /* VIPER_patternS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER_patternS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		175354D024BF5AB10077EC18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		175354D924BF5AB50077EC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -158,7 +170,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		172D463824C04BDF00973F81 /* Menu1 */ = {
+		172D463824C04BDF00973F81 /* TriangleCalculator */ = {
 			isa = PBXGroup;
 			children = (
 				172D463924C04BF000973F81 /* Menu1.storyboard */,
@@ -168,7 +180,7 @@
 				172D463D24C04BF000973F81 /* Menu1Protocols.swift */,
 				172D463E24C04BF000973F81 /* Menu1Interactor.swift */,
 			);
-			path = Menu1;
+			path = TriangleCalculator;
 			sourceTree = "<group>";
 		};
 		17301CB424C6F86400A051D7 /* Third */ = {
@@ -182,6 +194,19 @@
 				17301CBA24C6F87800A051D7 /* ThirdInteractor.swift */,
 			);
 			path = Third;
+			sourceTree = "<group>";
+		};
+		17301CC124C7F49500A051D7 /* ShapeArea */ = {
+			isa = PBXGroup;
+			children = (
+				17301CC224C7F53A00A051D7 /* Shape.storyboard */,
+				17301CC324C7F53A00A051D7 /* ShapePresenter.swift */,
+				17301CC424C7F53A00A051D7 /* ShapeRouter.swift */,
+				17301CC524C7F53A00A051D7 /* ShapeViewController.swift */,
+				17301CC624C7F53A00A051D7 /* ShapeProtocols.swift */,
+				17301CC724C7F53A00A051D7 /* ShapeInteractor.swift */,
+			);
+			path = ShapeArea;
 			sourceTree = "<group>";
 		};
 		175354C424BF5AB10077EC18 = {
@@ -231,9 +256,10 @@
 			children = (
 				175354F824BF61360077EC18 /* Intro */,
 				175354E524BF5AEC0077EC18 /* Home */,
-				172D463824C04BDF00973F81 /* Menu1 */,
+				172D463824C04BDF00973F81 /* TriangleCalculator */,
 				17BA226A24C4449600A9B2D7 /* News */,
 				17301CB424C6F86400A051D7 /* Third */,
+				17301CC124C7F49500A051D7 /* ShapeArea */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -474,6 +500,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17301CC824C7F53A00A051D7 /* Shape.storyboard in Resources */,
 				175354DD24BF5AB50077EC18 /* LaunchScreen.storyboard in Resources */,
 				17BA227124C444AE00A9B2D7 /* News.storyboard in Resources */,
 				175354DA24BF5AB50077EC18 /* Assets.xcassets in Resources */,
@@ -554,11 +581,13 @@
 				17BA227624C444AE00A9B2D7 /* NewsInteractor.swift in Sources */,
 				1753550324BF62470077EC18 /* IntroProtocols.swift in Sources */,
 				17BA224424C4306E00A9B2D7 /* ShapeManager.swift in Sources */,
+				17301CCB24C7F53A00A051D7 /* ShapeViewController.swift in Sources */,
 				17BA225024C43C6900A9B2D7 /* VPRAPIManager.swift in Sources */,
 				17BA225624C43F4C00A9B2D7 /* UserSession.swift in Sources */,
 				172D464424C04BF100973F81 /* Menu1Interactor.swift in Sources */,
 				17BA228124C44B3200A9B2D7 /* EmptyForm.swift in Sources */,
 				17BA225424C43DC200A9B2D7 /* UserAgent.swift in Sources */,
+				17301CCA24C7F53A00A051D7 /* ShapeRouter.swift in Sources */,
 				17BA227424C444AE00A9B2D7 /* NewsViewController.swift in Sources */,
 				1753550024BF62460077EC18 /* IntroPresenter.swift in Sources */,
 				17301CBF24C6F87900A051D7 /* ThirdProtocols.swift in Sources */,
@@ -568,6 +597,7 @@
 				172D464224C04BF100973F81 /* Menu1ViewController.swift in Sources */,
 				17301CBC24C6F87800A051D7 /* ThirdPresenter.swift in Sources */,
 				17BA227924C4464A00A9B2D7 /* UserService.swift in Sources */,
+				17301CCD24C7F53A00A051D7 /* ShapeInteractor.swift in Sources */,
 				175354D124BF5AB10077EC18 /* AppDelegate.swift in Sources */,
 				17BA226924C4441900A9B2D7 /* Locale.swift in Sources */,
 				172D464124C04BF100973F81 /* Menu1Router.swift in Sources */,
@@ -586,7 +616,9 @@
 				175354ED24BF5AFB0077EC18 /* HomePresenter.swift in Sources */,
 				17301CC024C6F87900A051D7 /* ThirdInteractor.swift in Sources */,
 				175354F024BF5AFB0077EC18 /* HomeProtocols.swift in Sources */,
+				17301CC924C7F53A00A051D7 /* ShapePresenter.swift in Sources */,
 				17301CBE24C6F87900A051D7 /* ThirdViewController.swift in Sources */,
+				17301CCC24C7F53A00A051D7 /* ShapeProtocols.swift in Sources */,
 				17BA228D24C45E3500A9B2D7 /* SpecPage.swift in Sources */,
 				17BA225D24C441BE00A9B2D7 /* DateFormatter.swift in Sources */,
 				17301CBD24C6F87800A051D7 /* ThirdRouter.swift in Sources */,

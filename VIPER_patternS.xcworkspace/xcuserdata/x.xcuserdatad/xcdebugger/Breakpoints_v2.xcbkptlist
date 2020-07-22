@@ -3,4 +3,86 @@
    uuid = "97C73C8E-95B4-4E50-B82C-284A1F52A4E8"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DF11E75-EA2A-4D15-BF33-25D294ABD680"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIPER_pattern/Modules/ShapeArea/ShapeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "calArea(width:height:shape:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9DF11E75-EA2A-4D15-BF33-25D294ABD680 - 8b8ebd083c441f0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_patternS.ShapeViewController.calArea(width: Swift.Double, height: Swift.Double, shape: Swift.String) -&gt; Swift.Double"
+                  moduleName = "VIPER_patternS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/XcodeProjectsample/VIPER_pattern/VIPER_pattern/Modules/ShapeArea/ShapeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "9DF11E75-EA2A-4D15-BF33-25D294ABD680 - 8b8ebd083c441f0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VIPER_patternS.ShapeViewController.calArea(width: Swift.Double, height: Swift.Double, shape: Swift.String) -&gt; Swift.Double"
+                  moduleName = "VIPER_patternS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/x/XcodeProjectsample/VIPER_pattern/VIPER_pattern/Modules/ShapeArea/ShapeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "378">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32098664-A9F1-4F23-80B1-2B8B704738F9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIPER_pattern/Modules/ShapeArea/ShapeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "calArea(width:height:shape:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "226C1EA6-7F63-4661-88BE-3874A8DF306E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VIPER_pattern/Modules/ShapeArea/ShapeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "calDidTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

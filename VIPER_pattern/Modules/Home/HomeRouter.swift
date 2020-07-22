@@ -46,5 +46,10 @@ class HomeRouter: HomeRouterInterface {
         let thirdVC = ThirdRouter.createModule()
         viewController?.navigationController?.pushViewController(thirdVC, animated: true)
     }
+    
+    func presentCalShapeModule() {
+        let shape = ShapeRouter.createModule()
+        viewController?.navigationController?.pushViewController(shape, animated: true)
+    }
 }
 

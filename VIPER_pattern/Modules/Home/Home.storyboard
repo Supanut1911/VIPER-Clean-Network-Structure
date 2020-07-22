@@ -34,7 +34,7 @@
                                             <constraint firstAttribute="width" constant="80" id="2Y6-im-w36"/>
                                             <constraint firstAttribute="height" constant="80" id="gjE-qR-k2s"/>
                                         </constraints>
-                                        <state key="normal" title="Menu1"/>
+                                        <state key="normal" title="TRIANGLE"/>
                                         <connections>
                                             <action selector="menu1DidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jua-YF-Wc5"/>
                                         </connections>
@@ -42,7 +42,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSS-3J-P6u">
                                         <rect key="frame" x="113" y="0.0" width="80" height="80"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Menu2"/>
+                                        <state key="normal" title="NEWS"/>
                                         <connections>
                                             <action selector="menu2DidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VC2-Oh-mwY"/>
                                         </connections>
@@ -50,7 +50,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="885-cr-r3a">
                                         <rect key="frame" x="226" y="0.0" width="80" height="80"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Menu3"/>
+                                        <state key="normal" title="THIRD"/>
                                         <connections>
                                             <action selector="menu3DidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ihC-e6-ogj"/>
                                         </connections>
@@ -63,14 +63,51 @@
                                     <constraint firstItem="885-cr-r3a" firstAttribute="height" secondItem="fSS-3J-P6u" secondAttribute="height" id="iRQ-fZ-S6D"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="ze6-bD-2XG">
+                                <rect key="frame" x="34.666666666666657" y="486" width="306" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaS-QC-Fse">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" red="0.2666666667" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="Xk3-ID-UtZ"/>
+                                            <constraint firstAttribute="width" constant="80" id="xGW-kP-PTS"/>
+                                        </constraints>
+                                        <state key="normal" title="SHAPE"/>
+                                        <connections>
+                                            <action selector="shapeDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gmh-wh-dO5"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcj-8t-fmp">
+                                        <rect key="frame" x="113" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" red="0.2666666667" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="BEa-eb-D7Z"/>
+                                            <constraint firstAttribute="width" constant="80" id="Eae-hx-Yiu"/>
+                                        </constraints>
+                                        <state key="normal" title="SHAPE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InO-K6-yXv">
+                                        <rect key="frame" x="226" y="0.0" width="80" height="80"/>
+                                        <color key="backgroundColor" red="0.2666666667" green="0.70980392160000005" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="H7h-Rt-P1G"/>
+                                            <constraint firstAttribute="height" constant="80" id="v5D-bu-O0v"/>
+                                        </constraints>
+                                        <state key="normal" title="SHAPE"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ze6-bD-2XG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ffm-ex-juj"/>
                             <constraint firstItem="Gl2-xF-w33" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="18" id="FsX-sA-7JN"/>
                             <constraint firstItem="Gl2-xF-w33" firstAttribute="top" secondItem="V0m-P4-2ew" secondAttribute="bottom" constant="143.66999999999999" id="Jxy-sV-FfT"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Gl2-xF-w33" secondAttribute="trailing" constant="19" id="Mb2-aQ-Zxi"/>
                             <constraint firstItem="V0m-P4-2ew" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="158" id="Mmk-az-7tH"/>
                             <constraint firstItem="V0m-P4-2ew" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UAL-Tm-mnf"/>
+                            <constraint firstItem="ze6-bD-2XG" firstAttribute="top" secondItem="Gl2-xF-w33" secondAttribute="bottom" constant="40" id="pvI-lJ-YrD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jji-uH-Yqx"/>

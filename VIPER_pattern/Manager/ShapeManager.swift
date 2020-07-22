@@ -12,7 +12,7 @@ class ShapeManager: NSObject {
     
     static let shared = ShapeManager()
     
-    func calArea(w: Int, h: Int) -> Int {
-        return w * h
+    func calArea(w: Int, h: Int) -> Double {
+        return 0.5 * Double(w) * Double(h)
     }
 }

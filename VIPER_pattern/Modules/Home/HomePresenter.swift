@@ -26,6 +26,10 @@ class HomePresenter: HomePresenterInterface {
         router?.presentThridModule()
     }
     
+    func showShape() {
+        router?.presentCalShapeModule()
+    }
+    
 }
 
 extension HomePresenter: HomeInteractorDelegate {

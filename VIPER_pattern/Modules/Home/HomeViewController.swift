@@ -21,7 +21,7 @@ class HomeViewController: UIViewController, StoryboardLoadable {
         self.navigationController?.navigationBar.setRadialGradientBackground(colors: [.red, .yellow])
     }
     
- 
+    //Actions
     @IBAction func menu1DidTap(_ sender: Any) {
         presenter?.showMenu1()
     }
@@ -35,6 +35,9 @@ class HomeViewController: UIViewController, StoryboardLoadable {
         presenter?.showThird()
     }
     
+    @IBAction func shapeDidTap(_ sender: Any) {
+        presenter?.showShape()
+    }
 }
 
 extension HomeViewController: HomeViewInterface {
